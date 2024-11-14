@@ -1,0 +1,1 @@
+# ngsild-api-data-models
