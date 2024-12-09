@@ -107,8 +107,13 @@
 	"nombreEnfantsMaternelleMercrediMatinSeul": "https://semantics.cerema.fr/ontologies/scolarite#nombreEnfantsMaternelleMercrediMatinSeul",
 	"nombreEnfantsPrimaireMercrediMatinSeul": "https://semantics.cerema.fr/ontologies/scolarite#nombreEnfantsPrimaireMercrediMatinSeul",
 
-	"DemandeAutorisationUrbanisme": "https://semantics.cerema.fr/ontologies/urbanisme#DemandeAutorisationUrbanisme",
+	"AutorisationUrbanisme": "https://semantics.cerema.fr/ontologies/urbanisme#AutorisationUrbanisme",
 	"typeDAU": "https://semantics.cerema.fr/ontologies/urbanisme#typeDAU",
-	"etatDAU": "https://semantics.cerema.fr/ontologies/urbanisme#etatDAU"
+	"numDAU": "https://semantics.cerema.fr/ontologies/urbanisme#numDAU",
+	"etatDAU": "https://semantics.cerema.fr/ontologies/urbanisme#etatDAU",
+	"logementsCrees": "https://semantics.cerema.fr/ontologies/urbanisme#logementsCrees",
+	"dateAutorisation": "https://semantics.cerema.fr/ontologies/urbanisme#dateAutorisation",
+	"anneeDepot": "https://semantics.cerema.fr/ontologies/urbanisme#anneeDepot",
+	"superficieTerrain": "https://semantics.cerema.fr/ontologies/urbanisme#superficieTerrain",
     }
 }
