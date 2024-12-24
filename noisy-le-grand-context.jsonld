@@ -116,6 +116,16 @@
 	"6P_PLUS": "https://semantics.cerema.fr/ontologies/urbanisme#6P_PLUS",
 	"logementsTotaux": "https://semantics.cerema.fr/ontologies/urbanisme#logementsTotaux",
 	"logementsIndividuels": "https://semantics.cerema.fr/ontologies/urbanisme#logementsIndividuels",
-	"logementsCollectifs": "https://semantics.cerema.fr/ontologies/urbanisme#logementsCollectifs"
+	"logementsCollectifs": "https://semantics.cerema.fr/ontologies/urbanisme#logementsCollectifs",
+	"effectifs": "https://semantics.cerema.fr/ontologies/scolarite#effectifs",
+	"CM_2": "https://semantics.cerema.fr/ontologies/scolarite#CM_2",
+	"CM_1": "https://semantics.cerema.fr/ontologies/scolarite#CM_1",
+	"CE_2": "https://semantics.cerema.fr/ontologies/scolarite#CE_2",
+	"CE_1": "https://semantics.cerema.fr/ontologies/scolarite#CE_1",
+	"CP": "https://semantics.cerema.fr/ontologies/scolarite#CP",
+	"5_ANS": "https://semantics.cerema.fr/ontologies/scolarite#5_ANS",
+	"4_ANS": "https://semantics.cerema.fr/ontologies/scolarite#4_ANS",
+	"3_ANS": "https://semantics.cerema.fr/ontologies/scolarite#3_ANS",
+	"2_ANS": "https://semantics.cerema.fr/ontologies/scolarite#2_ANS"
     }
 }
