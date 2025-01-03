@@ -83,7 +83,7 @@
         "nombreRepasMaternelle": "https://semantics.cerema.fr/ontologies/scolarite#nombreRepasMaternelle",
         "nombreRepasPrimaire": "https://semantics.cerema.fr/ontologies/scolarite#nombreRepasPrimaire",
         "nombreRepasAdultes": "https://semantics.cerema.fr/ontologies/scolarite#nombreRepasAdultes",
-        "EtablissementEnseignement": "https://semantics.cerema.fr/ontologies/scolarite#EtablissementEnseignement",
+        "EtablissementScolaire": "https://semantics.cerema.fr/ontologies/scolarite#EtablissementScolaire",
         "EcoleMaternelle": "https://semantics.cerema.fr/ontologies/scolarite#EcoleMaternelle",
         "EcolePrimaire": "https://semantics.cerema.fr/ontologies/scolarite#EcolePrimaire",
         "Naissances": "https://semantics.cerema.fr/ontologies/scolarite#Naissances",
