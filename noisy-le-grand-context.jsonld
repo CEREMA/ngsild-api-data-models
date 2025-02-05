@@ -99,6 +99,7 @@
 	"anneeDeDebut": "https://semantics.cerema.fr/ontologies/scolarite#anneeDeDebut",
 	"anneeZero": "https://semantics.cerema.fr/ontologies/scolarite#anneeZero",
 	"nombreAnneesProjection": "https://semantics.cerema.fr/ontologies/scolarite#nombreAnneesProjection",
+	"nombreAnneesNaissances": "https://semantics.cerema.fr/ontologies/scolarite#nombreAnneesNaissances",
 	"nombreClassesSpecialisees": "https://semantics.cerema.fr/ontologies/scolarite#nombreClassesSpecialisees",
 	"naissances": "https://semantics.cerema.fr/ontologies/scolarite#naissances",
         "estDansSecteur": "https://semantics.cerema.fr/ontologies/scolarite#estDansSecteur",
