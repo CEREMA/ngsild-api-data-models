@@ -146,6 +146,20 @@
 	"5_ANS": "https://semantics.cerema.fr/ontologies/scolarite#5_ANS",
 	"4_ANS": "https://semantics.cerema.fr/ontologies/scolarite#4_ANS",
 	"3_ANS": "https://semantics.cerema.fr/ontologies/scolarite#3_ANS",
-	"2_ANS": "https://semantics.cerema.fr/ontologies/scolarite#2_ANS"
+	"2_ANS": "https://semantics.cerema.fr/ontologies/scolarite#2_ANS",
+	"Batiment": "https://semantics.cerema.fr/ontologies/batiments#Batiment",
+	"idsRNB": "https://semantics.cerema.fr/ontologies/batiments#idsRNB",
+	"natureBatiment": "https://semantics.cerema.fr/ontologies/batiments#natureBatiment",
+	"usageBatiment": "https://semantics.cerema.fr/ontologies/batiments#usageBatiment",
+	"anneeReference": "https://semantics.cerema.fr/ontologies/batiments#anneeReference",
+	"nombreLogements": "https://semantics.cerema.fr/ontologies/batiments#nombreLogements",
+	"nombreEtages": "https://semantics.cerema.fr/ontologies/batiments#nombreEtages",
+	"materiauxMurs": "https://semantics.cerema.fr/ontologies/batiments#materiauxMurs",
+	"materiauxToits": "https://semantics.cerema.fr/ontologies/batiments#materiauxToits",
+	"hauteurBatiment": "https://semantics.cerema.fr/ontologies/batiments#hauteurBatiment",
+	"altMinSol": "https://semantics.cerema.fr/ontologies/batiments#altMinSol",
+	"altMinToit": "https://semantics.cerema.fr/ontologies/batiments#altMinToit",
+	"altMaxToit": "https://semantics.cerema.fr/ontologies/batiments#altMaxToit",
+	"altMaxSol": "https://semantics.cerema.fr/ontologies/batiments#altMaxSol"
     }
 }
