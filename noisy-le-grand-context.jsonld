@@ -108,6 +108,8 @@
 	"naissances": "https://semantics.cerema.fr/ontologies/scolarite#naissances",
 	"naissancesPredites": "https://semantics.cerema.fr/ontologies/scolarite#naissancesPredites",
         "estDansSecteur": "https://semantics.cerema.fr/ontologies/scolarite#estDansSecteur",
+ 	"estDansClasse": "https://semantics.cerema.fr/ontologies/scolarite#estDansClasse",
+        "faitPartieDeEtablissement": "https://semantics.cerema.fr/ontologies/scolarite#faitPartieDeEtablissement",
         "estDansVille": "https://semantics.cerema.fr/ontologies/urbanisme#estDansVille",
         "regroupementSoir": "https://semantics.cerema.fr/ontologies/scolarite#regroupementSoir",
         "regroupementMercredi": "https://semantics.cerema.fr/ontologies/scolarite#regroupementMercredi",
