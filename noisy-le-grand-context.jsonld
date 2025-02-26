@@ -83,6 +83,7 @@
         "AccueilScolaire": "https://semantics.cerema.fr/ontologies/scolarite#AccueilScolaire",
         "RestaurantScolaire": "https://semantics.cerema.fr/ontologies/scolarite#RestaurantScolaire",
         "SecteurScolaire": "https://semantics.cerema.fr/ontologies/scolarite#SecteurScolaire",
+        "Eleve": "https://semantics.cerema.fr/ontologies/scolarite#Eleve",
         "Secteur": "https://semantics.cerema.fr/ontologies/scolarite#Secteur",
         "RepasScolaires": "https://semantics.cerema.fr/ontologies/scolarite#RepasScolaires",
         "nombreRepasMaternelle": "https://semantics.cerema.fr/ontologies/scolarite#nombreRepasMaternelle",
