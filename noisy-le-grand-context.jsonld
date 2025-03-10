@@ -171,6 +171,15 @@
 	"altMinSol": "https://semantics.cerema.fr/ontologies/batiments#altMinSol",
 	"altMinToit": "https://semantics.cerema.fr/ontologies/batiments#altMinToit",
 	"altMaxToit": "https://semantics.cerema.fr/ontologies/batiments#altMaxToit",
-	"altMaxSol": "https://semantics.cerema.fr/ontologies/batiments#altMaxSol"
+	"altMaxSol": "https://semantics.cerema.fr/ontologies/batiments#altMaxSol",
+	"VenteBienImmobilier": "https://semantics.cerema.fr/ontologies/urbanisme#VenteBienImmobilier",
+	"idMutation": "https://semantics.cerema.fr/ontologies/urbanisme#idMutation",
+	"dateMutation": "https://semantics.cerema.fr/ontologies/urbanisme#dateMutation",
+	"natureMutation": "https://semantics.cerema.fr/ontologies/urbanisme#natureMutation",
+	"valeurFonciere": "https://semantics.cerema.fr/ontologies/urbanisme#valeurFonciere",
+	"surfaceTerrain": "https://semantics.cerema.fr/ontologies/urbanisme#surfaceTerrain",
+	"surfaceBatie": "https://semantics.cerema.fr/ontologies/urbanisme#surfaceBatie",
+	"parcelle": "https://semantics.cerema.fr/ontologies/urbanisme#Parcelle",
+	"typeBien": "https://semantics.cerema.fr/ontologies/urbanisme#typeBien"
     }
 }
