@@ -183,7 +183,7 @@
 	"typeBien": "https://semantics.cerema.fr/ontologies/urbanisme#typeBien",
 	    "RecensementLogement": "https://semantics.cerema.fr/ontologies/INSEE#RecensementLogement",
     "anneeEmmenagementDetaillee": "https://semantics.cerema.fr/ontologies/INSEE#anneeEmmenagementDetaillee",
-    "anneeEmmenagementRegroupée": "https://semantics.cerema.fr/ontologies/INSEE#anneeEmmenagementRegroupee",
+    "anneeEmmenagementRegroupee": "https://semantics.cerema.fr/ontologies/INSEE#anneeEmmenagementRegroupee",
     "ageRegroupePersonneReference": "https://semantics.cerema.fr/ontologies/INSEE#ageRegroupePersonneReference",
     "ancienneteEmmenagementDetaillee": "https://semantics.cerema.fr/ontologies/INSEE#ancienneteEmmenagementDetaillee",
     "ancienneteEmmenagementRegroupee": "https://semantics.cerema.fr/ontologies/INSEE#ancienneteEmmenagementRegroupée",
