@@ -182,6 +182,7 @@
 	"parcelle": "https://semantics.cerema.fr/ontologies/urbanisme#Parcelle",
 	"typeBien": "https://semantics.cerema.fr/ontologies/urbanisme#typeBien",
 	    "RecensementLogement": "https://semantics.cerema.fr/ontologies/INSEE#RecensementLogement",
+    "periodeAchevementConstruction": "https://semantics.cerema.fr/ontologies/INSEE#periodeAchevementConstruction",
     "anneeEmmenagementDetaillee": "https://semantics.cerema.fr/ontologies/INSEE#anneeEmmenagementDetaillee",
     "anneeEmmenagementRegroupee": "https://semantics.cerema.fr/ontologies/INSEE#anneeEmmenagementRegroupee",
     "ageRegroupePersonneReference": "https://semantics.cerema.fr/ontologies/INSEE#ageRegroupePersonneReference",
