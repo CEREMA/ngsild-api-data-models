@@ -187,7 +187,7 @@
     "anneeEmmenagementRegroupee": "https://semantics.cerema.fr/ontologies/INSEE#anneeEmmenagementRegroupee",
     "ageRegroupePersonneReference": "https://semantics.cerema.fr/ontologies/INSEE#ageRegroupePersonneReference",
     "ancienneteEmmenagementDetaillee": "https://semantics.cerema.fr/ontologies/INSEE#ancienneteEmmenagementDetaillee",
-    "ancienneteEmmenagementRegroupee": "https://semantics.cerema.fr/ontologies/INSEE#ancienneteEmmenagementRegroupée",
+    "ancienneteEmmenagementRegroupee": "https://semantics.cerema.fr/ontologies/INSEE#ancienneteEmmenagementRegroupee",
     "conditionEmploiPersonneReference": "https://semantics.cerema.fr/ontologies/INSEE#conditionEmploiPersonneReference",
     "appartenanceHLM": "https://semantics.cerema.fr/ontologies/INSEE#appartenanceHLM",
     "indicateurLieuEtudes": "https://semantics.cerema.fr/ontologies/INSEE#indicateurLieuEtudes",
