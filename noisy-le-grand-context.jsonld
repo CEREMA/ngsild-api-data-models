@@ -111,6 +111,7 @@
         "estDansSecteur": "https://semantics.cerema.fr/ontologies/scolarite#estDansSecteur",
  	"estDansClasse": "https://semantics.cerema.fr/ontologies/scolarite#estDansClasse",
         "faitPartieDeEtablissement": "https://semantics.cerema.fr/ontologies/scolarite#faitPartieDeEtablissement",
+        "estLieAEtablissement": "https://semantics.cerema.fr/ontologies/scolarite#estLieAEtablissement",
         "estDansVille": "https://semantics.cerema.fr/ontologies/urbanisme#estDansVille",
         "regroupementSoir": "https://semantics.cerema.fr/ontologies/scolarite#regroupementSoir",
         "regroupementMercredi": "https://semantics.cerema.fr/ontologies/scolarite#regroupementMercredi",
