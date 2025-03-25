@@ -80,7 +80,7 @@
         "codePostal": "https://semantics.cerema.fr/ontologies/administratif#codePostal",
         "codeInsee": "https://semantics.cerema.fr/ontologies/administratif#codeInsee",
         "GroupeScolaire": "https://semantics.cerema.fr/ontologies/scolarite#GroupeScolaire",
-        "Periscolaire": "https://semantics.cerema.fr/ontologies/scolarite#Periscolaire",
+        "AccueilLoisirs": "https://semantics.cerema.fr/ontologies/scolarite#AccueilLoisirs",
         "RestaurantScolaire": "https://semantics.cerema.fr/ontologies/scolarite#RestaurantScolaire",
         "SecteurScolaire": "https://semantics.cerema.fr/ontologies/scolarite#SecteurScolaire",
         "Eleve": "https://semantics.cerema.fr/ontologies/scolarite#Eleve",
