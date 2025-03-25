@@ -219,6 +219,6 @@
     "nombreVoituresMenage": "https://semantics.cerema.fr/ontologies/INSEE#nombreVoituresMenage",
 	    "IRIS": "https://semantics.cerema.fr/ontologies/INSEE#IRIS",
 	    "codeIRIS": "https://semantics.cerema.fr/ontologies/INSEE#codeIRIS",
-	    "codeINSEE": "https://dbpedia.org/ontology/inseeCode"
+	    "typeIRIS": "https://semantics.cerema.fr/ontologies/INSEE#typeIRIS"
     }
 }
