@@ -191,6 +191,8 @@
     "ancienneteEmmenagementRegroupee": "https://semantics.cerema.fr/ontologies/INSEE#ancienneteEmmenagementRegroupee",
     "conditionEmploiPersonneReference": "https://semantics.cerema.fr/ontologies/INSEE#conditionEmploiPersonneReference",
     "appartenanceHLM": "https://semantics.cerema.fr/ontologies/INSEE#appartenanceHLM",
+    "appartenanceHLM": "https://semantics.cerema.fr/ontologies/INSEE#appartenanceHLM",
+    "diplome": "https://semantics.cerema.fr/ontologies/INSEE#diplome",
     "indicateurLieuEtudes": "https://semantics.cerema.fr/ontologies/INSEE#indicateurLieuEtudes",
     "indicateurLieuTravail": "https://semantics.cerema.fr/ontologies/INSEE#indicateurLieuTravail",
     "situationImmigration": "https://semantics.cerema.fr/ontologies/INSEE#situationImmigration",
