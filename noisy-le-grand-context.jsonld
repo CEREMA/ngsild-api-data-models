@@ -93,6 +93,7 @@
 	"Classe": "https://semantics.cerema.fr/ontologies/scolarite#Classe",
         "effectifs": "https://semantics.cerema.fr/ontologies/scolarite#effectifs",
         "effectifsPredits": "https://semantics.cerema.fr/ontologies/scolarite#effectifsPredits",
+        "effectifsMax": "https://semantics.cerema.fr/ontologies/scolarite#effectifsMax",
         "EtablissementEnseignement": "https://semantics.cerema.fr/ontologies/scolarite#EtablissementEnseignement",
         "EcoleMaternelle": "https://semantics.cerema.fr/ontologies/scolarite#EcoleMaternelle",
         "EcolePrimaire": "https://semantics.cerema.fr/ontologies/scolarite#EcolePrimaire",
