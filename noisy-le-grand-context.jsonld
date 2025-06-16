@@ -11,7 +11,7 @@
 	"Departement": "igeo:Departement",
 	"estDansRegion": "https://semantics.cerema.fr/ontologies/administratif#estDansRegion",
 	"Region": "igeo:Region",
-	"ProfilCommune": "https://semantics.cerema.fr/ontologies/urbanisme#ProfilCommune",
+	"ProfilTypeLogements": "https://semantics.cerema.fr/ontologies/urbanisme#ProfilTypeLogements",
         "aPourProfilTypeLogements": "https://semantics.cerema.fr/ontologies/urbanisme#aPourProfilTypeLogements",
         "ProfilTypeLogements": "https://semantics.cerema.fr/ontologies/urbanisme#ProfilTypeLogements",
         "Building": "https://uri.fiware.org/ns/dataModels#Building",
