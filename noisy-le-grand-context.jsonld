@@ -145,7 +145,6 @@
 	"AutorisationUrbanisme": "https://semantics.cerema.fr/ontologies/urbanisme#AutorisationUrbanisme",
 	"ConstructionLogements": "https://semantics.cerema.fr/ontologies/urbanisme#ConstructionLogements",
 	"ClusterVilles": "https://semantics.cerema.fr/ontologies/urbanisme#ClusterVilles", 
-	"": "https://semantics.cerema.fr/ontologies/urbanisme#ClusterVilles", 
 	"logementsPrevus": "https://semantics.cerema.fr/ontologies/urbanisme#logementsPrevus", 
 	"programme": "https://semantics.cerema.fr/ontologies/urbanisme#programme",
 	"dateOperation": "https://semantics.cerema.fr/ontologies/urbanisme#dateOperation",
