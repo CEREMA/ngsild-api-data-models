@@ -93,6 +93,7 @@
         "codeInsee": "https://semantics.cerema.fr/ontologies/administratif#codeInsee",
         "GroupeScolaire": "https://semantics.cerema.fr/ontologies/scolarite#GroupeScolaire",
         "AccueilLoisirs": "https://semantics.cerema.fr/ontologies/scolarite#AccueilLoisirs",
+        "Periscolaire": "https://semantics.cerema.fr/ontologies/scolarite#Periscolaire",
 		"effectifMoyenDemiPensionnaires": "https://semantics.cerema.fr/ontologies/scolarite#effectifMoyenDemiPensionnaires",
         "effectifMaxDemiPensionnaires": "https://semantics.cerema.fr/ontologies/scolarite#effectifMaxDemiPensionnaires",
 		"effectifMoyenTempsPrescolaire": "https://semantics.cerema.fr/ontologies/scolarite#effectifMoyenTempsPrescolaire",
