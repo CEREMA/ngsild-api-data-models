@@ -187,6 +187,7 @@
 	"logementsTotaux": "https://semantics.cerema.fr/ontologies/urbanisme#logementsTotaux",
 	"logementsIndividuels": "https://semantics.cerema.fr/ontologies/urbanisme#logementsIndividuels",
 	"logementsCollectifs": "https://semantics.cerema.fr/ontologies/urbanisme#logementsCollectifs",
+	"ClasseSpecialisee": "https://semantics.cerema.fr/ontologies/scolarite#ClasseSpecialisee",
 	"CM_2": "https://semantics.cerema.fr/ontologies/scolarite#CM_2",
 	"CM_1": "https://semantics.cerema.fr/ontologies/scolarite#CM_1",
 	"CE_2": "https://semantics.cerema.fr/ontologies/scolarite#CE_2",
