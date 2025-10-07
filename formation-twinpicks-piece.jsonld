@@ -5,7 +5,7 @@
         "geolocation": "https://semantics.cerema.fr/formation/geolocation",
         "category": "https://semantics.cerema.fr/formation/category",
         "constructionYear": "https://semantics.cerema.fr/formation/constructionYear",
-        "address": "https://semantics.cerema.fr/formation/address",
+        "address": "https://schema.org/address",
         "Room": "https://semantics.cerema.fr/formation/Room",
         "humidity": "https://semantics.cerema.fr/formation/humidity",
         "temperature": "https://semantics.cerema.fr/formation/temperature",
