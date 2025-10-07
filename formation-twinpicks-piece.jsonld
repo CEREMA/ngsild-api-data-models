@@ -12,6 +12,6 @@
         "floor": "https://semantics.cerema.fr/formation/floor",
         "usage": "https://semantics.cerema.fr/formation/usage",
         "isContained": "https://semantics.cerema.fr/formation/isContained",
-        "hasPart": "https://semantics.cerema.fr/formation/hasPart",
+        "hasPart": "https://semantics.cerema.fr/formation/hasPart"
     }
 }
