@@ -1,7 +1,7 @@
 {
     "@context": {
         "Building": "https://semantics.cerema.fr/formation/Building",
-        "name": "https://semantics.cerema.fr/formation/name",
+        "name": "https://schema.org/name",
         "geolocation": "https://semantics.cerema.fr/formation/geolocation",
         "category": "https://semantics.cerema.fr/formation/category",
         "constructionYear": "https://semantics.cerema.fr/formation/constructionYear",
