@@ -1,0 +1,58 @@
+{
+  "@context": {
+    "fiware": "https://uri.fiware.org/ns/dataModels#",
+    "schema": "https://schema.org/",
+    "nafr2": "http://id.insee.fr/concepts/nafr2/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "geo": "https://uri.etsi.org/ngsi-ld/geoProperty#",
+
+    "ecmb": "https://semantics.cerema.fr/ontologies/economie-circulaire/materiaux-btp#",
+
+    "ChantierEnrochement": "ecmb:ChantierEnrochement",
+
+    "location": "https://uri.etsi.org/ngsi-ld/location",
+
+    "nom": "https://schema.org/name",
+    "description": "https://schema.org/description",
+
+    "anDebut": "https://schema.org/startDate",
+    "anFin": "https://schema.org/endDate",
+
+    "maitreOuvrage": "ecmb:maitreOuvrage",
+    "maitreOeuvre":  "ecmb:maitreOeuvre",
+    "typeTravaux":   "ecmb:typeTravaux",
+
+    "betonPref":          "ecmb:betonPref",
+    "viabilisationAutre": "ecmb:viabilisationAutre",
+
+    "tonnageTotal":        "ecmb:tonnageTotal",
+    "tonnageEnrochement":  "ecmb:tonnageEnrochement",
+    "masseVolumique":      "ecmb:masseVolumique",
+    "rechercheRayon":      "ecmb:rechercheRayon",
+
+    "publication": "ecmb:publication",
+    "respectCaracTechniques": "ecmb:respectCaracTechniques",
+
+    "ro5": "ecmb:ro5",
+    "ronr": "ecmb:ronr",
+    "cs80": "ecmb:cs80",
+    "cs60": "ecmb:cs60",
+    "csnr": "ecmb:csnr",
+    "mde10": "ecmb:mde10",
+    "mde20": "ecmb:mde20",
+    "mdenr": "ecmb:mdenr",
+    "ic80": "ecmb:ic80",
+    "ic70": "ecmb:ic70",
+    "ic60": "ecmb:ic60",
+    "icDeclare": "ecmb:icDeclare",
+    "integriteEssaiChute": "ecmb:integriteEssaiChute",
+    "roDeclare": "ecmb:roDeclare",
+    "csDeclare": "ecmb:csDeclare",
+    "mdeDeclare": "ecmb:mdeDeclare",
+
+    "blocometrie1": "ecmb:blocometrie1",
+    "blocometrie2": "ecmb:blocometrie2",
+    "blocometrie3": "ecmb:blocometrie3",
+    "blocometrie4": "ecmb:blocometrie4"
+  }
+}
