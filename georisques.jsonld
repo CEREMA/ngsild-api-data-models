@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "qudt": "http://qudt.org/schema/qudt/",
+    "unit": "http://qudt.org/vocab/unit/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "org": "http://www.w3.org/ns/org#",
+    "locn": "http://www.w3.org/ns/locn#",
+    "grisk": "https://example.org/ontology/georisques#",
+
+    "legalName": "schema:legalName",
+    "identifier": "org:identifier",
+    "address": "locn:address",
+    "fullAddress": "locn:fullAddress",
+    "postCode": "locn:postCode",
+    "adminUnit": "locn:adminUnit",
+    "thoroughfare": "locn:thoroughfare",
+
+    "codeAIOT": "grisk:codeAIOT",
+    "etatActivite": "grisk:etatActivite",
+    "regime": "grisk:regime",
+    "prioriteNationale": "grisk:prioriteNationale",
+    "statutSeveso": "grisk:statutSeveso",
+    "ied": "grisk:ied",
+    "serviceAIOT": "grisk:serviceAIOT",
+
+    "hasRubrique": "grisk:hasRubrique",
+    "hasInspection": "grisk:hasInspection",
+    "hasDocument": "grisk:hasDocument",
+    
+    "numeroRubrique": "grisk:numeroRubrique",
+    "natureRubrique": "grisk:natureRubrique",
+    "alinea": "grisk:alinea",
+    "regimeAutoriseAlinea": "grisk:regimeAutoriseAlinea",
+    "quantiteTotale": "qudt:numericValue",
+    "unite": "qudt:unit",
+
+    "dateInspection": "schema:date",
+    "documentName": "schema:name",
+    "documentType": "schema:additionalType",
+    "documentDate": "schema:dateCreated",
+    "documentURL": "schema:url"
+  }
+}
