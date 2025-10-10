@@ -7,7 +7,7 @@
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "org": "http://www.w3.org/ns/org#",
     "locn": "http://www.w3.org/ns/locn#",
-    "grisk": "https://example.org/ontology/georisques#",
+    "grisk": "https://semantics.brgm.fr/ontologies/georisques#",
 
     "legalName": "schema:legalName",
     "identifier": "org:identifier",
