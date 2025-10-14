@@ -10,8 +10,8 @@
     "ArmourstoneClass": "armst:ArmourstoneClass",
     "MassClass": "armst:MassClass",
     "CoarseSizeClass": "armst:CoarseSizeClass",
-    "Category": "armst:Category",
-    "Material": "armst:Material",
+    "ArmourstoneCategory": "armst:Category",
+    "ArmourstoneMaterial": "armst:Material",
 
     "hasMassClass": "armst:hasMassClass",
     "hasSizeClass": "armst:hasSizeClass",
