@@ -1,0 +1,32 @@
+{
+  "@context": {
+    "armst": "https://semantics.cerema.fr/ontologies/en13383/armourstone#",
+
+    "schema": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+
+    "Armourstone": "armst:Armourstone",
+    "ArmourstoneClass": "armst:ArmourstoneClass",
+    "MassClass": "armst:MassClass",
+    "CoarseSizeClass": "armst:CoarseSizeClass",
+    "Category": "armst:Category",
+    "Material": "armst:Material",
+
+    "hasMassClass": "armst:hasMassClass",
+    "hasSizeClass": "armst:hasSizeClass",
+    "hasCategory":  "armst:hasCategory",
+    "isInstanceOfClass": "armst:isInstanceOfClass",
+    "hasMaterial":  "armst:hasMaterial",
+
+    "hasLowerBound": "armst:hasLowerBound",
+    "hasUpperBound": "armst:hasUpperBound",
+    "hasUnit":       "armst:hasUnit",
+    "referenceNorm": "armst:referenceNorm",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "label": "rdfs:label",
+    "prefLabel": "skos:prefLabel"
+  }
+}
