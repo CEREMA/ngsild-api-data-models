@@ -147,7 +147,6 @@
     "nomVoieBanGauche": "topo:nomBANgauche",
     "nomVoieBanDroite": "topo:nomBANdroite",
     "identifiantVoieBanGauche": "topo:idBANgauche",
-    "identifiantVoieBanDroite": "topo:idBANdroite"
-
-
+    "identifiantVoieBanDroite": "topo:idBANdroite",
+	}
 }
