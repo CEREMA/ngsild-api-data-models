@@ -33,7 +33,6 @@
 
     "localisation": "geo:Point",
     "dateMesure": "schema:Date",
-    "type": "opendrive:signalType",
     "categorie": "owm:TrafficSignCategory",
     "gamme": "ago:TrafficSignRange",
     "description": "schema:description",
