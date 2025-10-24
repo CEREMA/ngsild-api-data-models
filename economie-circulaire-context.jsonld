@@ -4,10 +4,13 @@
     "schema": "https://schema.org/",
     "nafr2": "http://id.insee.fr/concepts/nafr2/",
     "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dcterms": "http://purl.org/dc/terms/",
     "geo": "https://uri.etsi.org/ngsi-ld/geoProperty#",
 
     "ecmb": "https://semantics.cerema.fr/ontologies/economie-circulaire/materiaux-btp#",
 
+    "ProductionBlocometrie": "ecmb:ProductionBlocometrie",
+    "UsageBlocometrie": "ecmb:UsageBlocometrie",
     "ChantierEnrochement": "ecmb:ChantierEnrochement",
 
     "location": "https://uri.etsi.org/ngsi-ld/location",
@@ -30,6 +33,19 @@
     "masseVolumique":      "ecmb:masseVolumique",
     "rechercheRayon":      "ecmb:rechercheRayon",
 
+    "producedBy": "ecmb:producedBy",
+    "usedIn": "ecmb:usedIn",
+    "sourcedFrom": "ecmb:sourcedFrom",
+    "hasMaterial": "astm:hasMaterial",
+    "hasGrading": "astm:hasGrading",
+    "placementZone": "ecmb:placementZone",
+    "validFrom": "dcterms:valid",
+    "validTo": "dcterms:expires",
+    "totalMass": "ecmb:totalMass",
+    "massUsed": "ecmb:massUsed",
+    "unitCode": "ecmb:unitCode",
+    "declared": "ecmb:declared",
+
     "publication": "ecmb:publication",
     "respectCaracTechniques": "ecmb:respectCaracTechniques",
 
@@ -48,11 +64,6 @@
     "integriteEssaiChute": "ecmb:integriteEssaiChute",
     "roDeclare": "ecmb:roDeclare",
     "csDeclare": "ecmb:csDeclare",
-    "mdeDeclare": "ecmb:mdeDeclare",
-
-    "blocometrie1": "ecmb:blocometrie1",
-    "blocometrie2": "ecmb:blocometrie2",
-    "blocometrie3": "ecmb:blocometrie3",
-    "blocometrie4": "ecmb:blocometrie4"
+    "mdeDeclare": "ecmb:mdeDeclare"
   }
 }
