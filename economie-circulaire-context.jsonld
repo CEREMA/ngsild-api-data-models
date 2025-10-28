@@ -9,8 +9,7 @@
 
     "ecmb": "https://semantics.cerema.fr/ontologies/economie-circulaire/materiaux-btp#",
 
-    "ProductionBlocometrie": "ecmb:ProductionBlocometrie",
-    "UsageBlocometrie": "ecmb:UsageBlocometrie",
+    "Blocometrie": "ecmb:Blocometrie",
     "ChantierEnrochement": "ecmb:ChantierEnrochement",
 
     "location": "https://uri.etsi.org/ngsi-ld/location",
