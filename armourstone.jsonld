@@ -6,6 +6,7 @@
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
 
+    "ProductionBlocs": "armst:ProductionBlocs",
     "Armourstone": "armst:Armourstone",
     "ArmourstoneClass": "armst:ArmourstoneClass",
     "MassClass": "armst:MassClass",
@@ -18,6 +19,13 @@
     "hasCategory":  "armst:hasCategory",
     "isInstanceOfClass": "armst:isInstanceOfClass",
     "hasMaterial":  "armst:hasMaterial",
+    "hasProductionSite":  "armst:hasProductionSite",
+    "hasColor":  "armst:hasColourCategory",
+    "hasCertification": "armst:certificationClass",
+    "blocometrie": "armst:hasBlocometrieSpec",
+
+    "massProd": "armst:totalProductionForBlockClass",
+    "forme": "armst:blockShapeDeclaredValue",
 
     "hasLowerBound": "armst:hasLowerBound",
     "hasUpperBound": "armst:hasUpperBound",
