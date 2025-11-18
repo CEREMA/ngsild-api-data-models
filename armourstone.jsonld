@@ -1,7 +1,7 @@
 {
   "@context": {
-    "armst": "https://semantics.cerema.fr/ontologies/en13383/armourstone/",
-    "rock": "https://semantics.cerema.fr/ontologies/rockmaterial/",
+    "armst": "https://semantics.cerema.fr/ontologies/en13383-1/armourstone/",
+    "rock": "https://semantics.cerema.fr/ontologies/en932-3/rockmaterial/",
 
     "schema": "https://schema.org/",
     "skos": "http://www.w3.org/2004/02/skos/core#",
