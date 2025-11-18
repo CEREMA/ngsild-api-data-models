@@ -1,6 +1,6 @@
 {
   "@context": {
-    "armst": "https://semantics.cerema.fr/ontologies/en13383/armourstone#",
+    "armst": "https://semantics.cerema.fr/ontologies/en13383/armourstone/",
 
     "schema": "https://schema.org/",
     "skos": "http://www.w3.org/2004/02/skos/core#",
