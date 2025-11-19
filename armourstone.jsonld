@@ -23,10 +23,16 @@
     "hasProductionSite":  "armst:hasProductionSite",
     "hasColor":  "armst:hasColourCategory",
     "hasCertification": "armst:certificationClass",
-    "blocometrie": "armst:hasBlocometrieSpec",
+    "hasIndiceRobustesse": "armst:hasIndiceRobustesse",
+    "hasMDEClass": "armst:hasMDEClass",
 
     "massProd": "armst:totalProductionForBlockClass",
     "forme": "armst:blockShapeDeclaredValue",
+    "blocometrie": "armst:hasBlocometrieSpec",
+    "masseVolumique": "armst:MasseVolumiqueApparente",
+    "resistanceFragmentation": "armst:FragmentationResistance",
+    "resistanceUsure": "armst:resistanceUsure",
+    "vitesseOndesCompression": "armst:vitesseOndesCompression",
 
     "hasLowerBound": "armst:hasLowerBound",
     "hasUpperBound": "armst:hasUpperBound",
