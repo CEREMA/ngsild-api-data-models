@@ -32,7 +32,7 @@
     "masseVolumique": "armst:MasseVolumiqueApparente",
     "resistanceFragmentation": "armst:FragmentationResistance",
     "resistanceUsure": "armst:resistanceUsure",
-    "vitesseOndesCompression": "armst:vitesseOndesCompression",
+    "vitesseOndesCompression": "armst:UltrasonicVelocity",
 
     "hasLowerBound": "armst:hasLowerBound",
     "hasUpperBound": "armst:hasUpperBound",
