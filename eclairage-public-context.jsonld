@@ -16,7 +16,6 @@
     "hauteurFeu": "ecl:hauteurFeu",
     "puissance": "ecl:puissance",
     "typeSource": "ecl:typeSource",
-    "unique id": "dcterms:identifier",
     "objective": "ecl:objective",
     "temperatureCouleur": "ecl:temperatureCouleur",
   }
