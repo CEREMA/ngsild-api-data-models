@@ -28,11 +28,33 @@
 
     "massProd": "armst:totalProductionForBlockClass",
     "forme": "armst:blockShapeDeclaredValue",
-    "blocometrie": "armst:hasBlocometrieSpec",
+    "hasBlocometrie": "armst:hasBlocometrieSpec",
     "masseVolumique": "armst:MasseVolumiqueApparente",
     "resistanceFragmentation": "armst:FragmentationResistance",
     "resistanceUsure": "armst:resistanceUsure",
     "vitesseOndesCompression": "armst:UltrasonicVelocity",
+
+    "masseVolumiqueMin": "armst:masseVolumiqueMin",
+    "masseVolumiqueMoy": "armst:masseVolumiqueMoy",
+    "masseVolumiqueMax": "armst:masseVolumiqueMax",
+    "masseVolumiqueAnneeEssai": "armst:masseVolumiqueAnneeEssai",
+
+    "resistanceFragmentationMin": "armst:resistanceFragmentationMin",
+    "resistanceFragmentationMoy": "armst:resistanceFragmentationMoy",
+    "resistanceFragmentationMax": "armst:resistanceFragmentationMax",
+    "resistanceFragmentationAnneeEssai": "armst:resistanceFragmentationAnneeEssai",
+
+    "resistanceUsureMin": "armst:resistanceUsureMin",
+    "resistanceUsureMoy": "armst:resistanceUsureMoy",
+    "resistanceUsureMax": "armst:resistanceUsureMax",
+    "resistanceUsureAnneeEssai": "armst:resistanceUsureAnneeEssai",
+
+    "vitesseOndesCompressionMin": "armst:vitesseOndesCompressionMin",
+    "vitesseOndesCompressionMoy": "armst:vitesseOndesCompressionMoy",
+    "vitesseOndesCompressionMax": "armst:vitesseOndesCompressionMax",
+    "vitesseOndesCompressionAnneeEssai": "armst:vitesseOndesCompressionAnneeEssai",
+    "vitesseOndesCompressionLaboratoire": "armst:vitesseOndesCompressionLaboratoire"
+
 
     "hasLowerBound": "armst:hasLowerBound",
     "hasUpperBound": "armst:hasUpperBound",
