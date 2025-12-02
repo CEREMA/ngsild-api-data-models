@@ -53,7 +53,7 @@
     "vitesseOndesCompressionMoy": "armst:vitesseOndesCompressionMoy",
     "vitesseOndesCompressionMax": "armst:vitesseOndesCompressionMax",
     "vitesseOndesCompressionAnneeEssai": "armst:vitesseOndesCompressionAnneeEssai",
-    "vitesseOndesCompressionLaboratoire": "armst:vitesseOndesCompressionLaboratoire"
+    "vitesseOndesCompressionLaboratoire": "armst:vitesseOndesCompressionLaboratoire",
 
 
     "hasLowerBound": "armst:hasLowerBound",
