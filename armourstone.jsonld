@@ -17,6 +17,10 @@
 
     "hasMassClass": "armst:hasMassClass",
     "hasSizeClass": "armst:hasSizeClass",
+    "masseMini": "hasMinMass",
+    "masseMaxi": "hasMaxMass",
+    "tailleMini": "hasMinSize",
+    "tailleMaxi": "hasMaxSize",
     "hasCategory":  "armst:hasCategory",
     "isInstanceOfClass": "armst:isInstanceOfClass",
     "hasMaterial":  "armst:hasMaterial",
