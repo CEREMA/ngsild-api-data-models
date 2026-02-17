@@ -45,7 +45,7 @@
     "lAddrform": "here:leftAddressFormat",
     "rAddrform": "here:rightAddressFormat",
 
-    "lPostcode": "schema:postalCode",
+    "lPostCode": "schema:postalCode"
     "rPostcode": "schema:postalCode",
     "lNumZones": "here:leftNumZones",
     "rNumZones": "here:rightNumZones",
