@@ -1,5 +1,153 @@
 {
-  "@context": {
-    "schema": "https://schema.org/"
-  }
+  "@context": {
+    "ngsi-ld": "https://uri.etsi.org/ngsi-ld/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "schema": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+
+    "osmkey": "https://wiki.openstreetmap.org/wiki/Key:",
+    "here": "https://semantics.cerema.fr/ontologies/HERE/",
+
+
+    "TronconDeRoute": "https://smart-data-models.github.io/dataModel.Transportation/RoadSegment/schema.json#/definitions/RoadSegment",
+    
+    "location": "https://uri.etsi.org/ngsi-ld/location",
+    "geometry": "https://uri.etsi.org/ngsi-ld/location",
+
+    "objectId": "schema:identifier",
+    "autoId": "schema:identifier",
+
+    "shape": "here:shape",
+    "shapeLen": "here:shapeLength",
+
+    "linkId": "schema:identifier",
+    "featId": "schema:identifier",
+
+    "stName": "schema:name",
+    "descript": "dcterms:description",
+    "stLangcd": "schema:inLanguage",
+
+    "numStnmes": "here:numberOfStreetNames",
+    "stNmPref": "here:streetNamePrefix",
+    "stTypBef": "here:streetTypeBefore",
+    "stNmBase": "here:streetNameBase",
+    "stNmSuff": "here:streetNameSuffix",
+    "stTypAft": "here:streetTypeAfter",
+    "stTypAtt": "here:streetTypeAttached",
+
+    "addrType": "here:addressType",
+    "lRefaddr": "here:leftRefAddress",
+    "lNrefaddr": "here:leftNonRefAddress",
+    "rRefaddr": "here:rightRefAddress",
+    "rNrefaddr": "here:rightNonRefAddress",
+    "lAddrsch": "here:leftAddressScheme",
+    "rAddrsch": "here:rightAddressScheme",
+    "lAddrform": "here:leftAddressFormat",
+    "rAddrform": "here:rightAddressFormat",
+
+    "lPostcode": "schema:postalCode",
+    "rPostcode": "schema:postalCode",
+    "lNumZones": "here:leftNumZones",
+    "rNumZones": "here:rightNumZones",
+    "numAdRng": "here:numberOfAddressRanges",
+    "refInId": "here:referenceIntersectionId",
+    "nrefInId": "here:nonReferenceIntersectionId",
+    "nShapepnt": "here:numberOfShapePoints",
+
+    "funcClass": "here:functionalClass",
+    "speedCat": "here:speedCategory",
+
+    "frSpdLim": "osmkey:maxspeed",
+    "toSpdLim": "osmkey:maxspeed",
+    "spdLmSrc": "here:speedLimitSource",
+
+    "fromLanes": "osmkey:lanes",
+    "toLanes": "osmkey:lanes",
+    "physLanes": "osmkey:lanes",
+
+    "frXLanes": "here:fromExitLanes",
+    "toXLanes": "here:toExitLanes",
+    "laneCat": "here:laneCategory",
+
+    "divider": "here:divider",
+    "dividerLeg": "here:dividerLegibility",
+    "dividerLleg": "here:dividerLegibility",
+
+    "dirTravel": "osmkey:oneway",
+
+    "private": "osmkey:access",
+    "pubAccess": "osmkey:access",
+    "poiAccess": "here:poiAccess",
+    "contracc": "here:controlledAccess",
+
+    "arAuto": "here:accessRestrictionAuto",
+    "arBus": "here:accessRestrictionBus",
+    "arTaxis": "here:accessRestrictionTaxi",
+    "arCarPool": "here:accessRestrictionCarpool",
+    "arPedest": "here:accessRestrictionPedestrian",
+    "arTrucks": "here:accessRestrictionTrucks",
+    "arTraff": "here:accessRestrictionThroughTraffic",
+    "arDeliv": "here:accessRestrictionDelivery",
+    "arEmerveh": "here:accessRestrictionEmergencyVehicles",
+    "arMotor": "here:accessRestrictionMotorcycles",
+
+    "bridge": "osmkey:bridge",
+    "tunnel": "osmkey:tunnel",
+    "tollway": "osmkey:toll",
+
+    "ramp": "here:ramp",
+    "roundAbout": "here:roundabout",
+    "reversible": "here:reversible",
+    "exprLane": "here:expressLane",
+    "carPoolRd": "here:carpoolRoad",
+    "frontage": "here:frontageRoad",
+
+    "ferryType": "here:ferryType",
+    "paved": "here:paved",
+    "urban": "here:urban",
+    "routeType": "here:routeType",
+    "scenicRt": "here:scenicRoute",
+    "scenicNm": "here:scenicName",
+
+    "parkAvail": "here:parkingAvailability",
+    "lowMblty": "here:lowMobilityAccess",
+    "priorityRd": "here:priorityRoad",
+    "fourWhldr": "here:fourWheelDriveRequired",
+
+    "dirOnSign": "here:directionOnSign",
+    "explicatBl": "here:explicationTable",
+    "nameOnRdsn": "here:nameOnRoadSign",
+    "postalName": "here:postalName",
+    "staleName": "here:staleName",
+    "vanityName": "here:vanityName",
+    "junctionNm": "here:junctionName",
+    "junctionnM": "here:junctionName",
+    "exitName": "here:exitName",
+
+    "interInter": "here:interInterchange",
+    "undefTraff": "here:undefinedTraffic",
+    "multiDigit": "here:multiDigit",
+    "maxAttr": "here:maxAttribute",
+    "spectrFig": "here:spectralFigure",
+    "indescrib": "here:indescribable",
+    "manoeuvre": "here:manoeuvre",
+    "inprocData": "here:inProcData",
+
+    "fullGeom": "here:fullGeometry",
+    "expandInc": "here:expandIncrement",
+    "transArea": "here:transitionArea",
+    "verTrans": "here:verticalTransition",
+    "plotRoad": "here:plotRoad",
+    "enhGeom": "here:enhancedGeometry",
+
+    "fgdlAqDate": "dcterms:created",
+
+    "lAreaId": "here:leftAreaId",
+    "rAreaId": "here:rightAreaId",
+    "coverInd": "here:coverIndicator",
+    
+    "label": "rdfs:label",
+    "prefLabel": "skos:prefLabel"
+    
+  }
 }
