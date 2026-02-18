@@ -19,7 +19,7 @@
     "location": "https://uri.etsi.org/ngsi-ld/location",
     "geometry": "https://uri.etsi.org/ngsi-ld/location",
 
-    
+    "HERE": "here:HERE"
     
 
     "Property": "ngsi-ld:Property",
