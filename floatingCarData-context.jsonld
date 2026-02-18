@@ -4,16 +4,70 @@
     "dcterms": "http://purl.org/dc/terms/",
     "schema": "https://schema.org/",
     "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
 
     "osmkey": "https://wiki.openstreetmap.org/wiki/Key:",
+
+
     "here": "https://semantics.cerema.fr/ontologies/HERE/",
+    "traf": "https://semantics.cerema.fr/ontologies/trafic/",
 
 
     "TronconDeRoute": "https://smart-data-models.github.io/dataModel.Transportation/RoadSegment/schema.json#/definitions/RoadSegment",
     
+
     "location": "https://uri.etsi.org/ngsi-ld/location",
     "geometry": "https://uri.etsi.org/ngsi-ld/location",
 
+    
+    
+
+    "Property": "ngsi-ld:Property",
+    "Relationship": "ngsi-ld:Relationship",
+    "GeoProperty": "ngsi-ld:GeoProperty",
+
+
+    "value": "ngsi-ld:hasValue",
+    "observedAt": "ngsi-ld:observedAt",
+    "object": "ngsi-ld:hasObject",
+    "scope": "ngsi-ld:scope",
+
+    "linkDir": "traf:linkDir",
+    "epoch15min": "traf:epoch15min",
+    "length": "traf:length",
+    "freeFlow": "traf:freeFlow",
+    "freeflow": "traf:freeFlow",
+    "spdLimit": "traf:spdLimit",
+    "spdlimit": "traf:spdLimit",
+    "count": "traf:count",
+    "mean": "traf:mean",
+    "stdDev": "traf:stdDev",
+    "stddev": "traf:stdDev",
+    "min": "traf:min",
+    "max": "traf:max",
+    "confidence": "traf:confidence",
+
+    "pct10": "traf:pct10",
+    "pct20": "traf:pct20",
+    "pct30": "traf:pct30",
+    "pct40": "traf:pct40",
+    "pct50": "traf:pct50",
+    "pct60": "traf:pct60",
+    "pct70": "traf:pct70",
+    "pct80": "traf:pct80",
+    "pct90": "traf:pct90",
+
+    "dir": "traf:dir",
+
+    "aPourTronconDeRoute": "traf:aPourRoute",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    
+    
+    
+    
+    
     "objectId": "schema:identifier",
     "autoId": "schema:identifier",
 
@@ -45,7 +99,7 @@
     "lAddrform": "here:leftAddressFormat",
     "rAddrform": "here:rightAddressFormat",
 
-    "lPostCode": "schema:postalCode"
+    "lPostCode": "schema:postalCode",
     "rPostcode": "schema:postalCode",
     "lNumZones": "here:leftNumZones",
     "rNumZones": "here:rightNumZones",
