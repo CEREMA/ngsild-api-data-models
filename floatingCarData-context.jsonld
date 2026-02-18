@@ -109,7 +109,7 @@
     "speedCat": "here:speedCategory",
 
     "frSpdLim": "here:heerMaxspeed",
-    "toSpdLim": "osmkey:maxspeed",
+    "toSpdLim": "here:maxspeed",
     "spdLmSrc": "here:speedLimitSource",
 
     "fromLanes": "here:fromlanes",
