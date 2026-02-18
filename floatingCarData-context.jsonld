@@ -19,8 +19,7 @@
     "location": "https://uri.etsi.org/ngsi-ld/location",
     "geometry": "https://uri.etsi.org/ngsi-ld/location",
 
-    "HERE": "here:HERE",
-    
+    "HERE": "here:HERE",    
 
     "Property": "ngsi-ld:Property",
     "Relationship": "ngsi-ld:Relationship",
@@ -36,9 +35,7 @@
     "epoch15min": "traf:epoch15min",
     "length": "traf:length",
     "freeFlow": "traf:freeFlow",
-    "freeflow": "traf:freeFlow",
     "spdLimit": "traf:spdLimit",
-    "spdlimit": "traf:spdLimit",
     "count": "traf:count",
     "mean": "traf:mean",
     "stdDev": "traf:stdDev",
@@ -111,17 +108,17 @@
     "funcClass": "here:functionalClass",
     "speedCat": "here:speedCategory",
 
-    "frSpdLim": "osmkey:maxspeed",
+    "frSpdLim": "here:maxspeed",
     "toSpdLim": "osmkey:maxspeed",
     "spdLmSrc": "here:speedLimitSource",
 
-    "fromLanes": "osmkey:lanes",
-    "toLanes": "osmkey:lanes",
-    "physLanes": "osmkey:lanes",
+    "fromLanes": "here:fromlanes",
+    "toLanes": "here:tolanes",
+    "physLanes": "here:physlanes",
 
     "frXLanes": "here:fromExitLanes",
     "toXLanes": "here:toExitLanes",
-    "laneCat": "here:laneCategory",
+    "laneCat": "osmkey:lanes",
 
     "divider": "here:divider",
     "dividerLeg": "here:dividerLegibility",
@@ -129,7 +126,7 @@
 
     "dirTravel": "osmkey:oneway",
 
-    "private": "osmkey:access",
+    "private": "here:accessPrivate",
     "pubAccess": "osmkey:access",
     "poiAccess": "here:poiAccess",
     "contracc": "here:controlledAccess",
