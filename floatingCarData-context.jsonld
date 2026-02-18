@@ -108,7 +108,7 @@
     "funcClass": "here:functionalClass",
     "speedCat": "here:speedCategory",
 
-    "frSpdLim": "here:maxspeed",
+    "frSpdLim": "here:heerMaxspeed",
     "toSpdLim": "osmkey:maxspeed",
     "spdLmSrc": "here:speedLimitSource",
 
