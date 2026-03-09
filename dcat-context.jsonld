@@ -3,41 +3,68 @@
     "fiware": "https://uri.fiware.org/ns/dataModels#",
     "schema": "https://schema.org/",
 
+    "ngsi-ld": "https://uri.etsi.org/ngsi-ld/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dct": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "locn": "http://www.w3.org/ns/locn#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "adms": "http://www.w3.org/ns/adms#",
+
     "DcatCatalog": "dcat:Catalog",
     "DcatDataset": "dcat:Dataset",
     "DcatDistribution": "dcat:Distribution",
     "DcatDataService": "dcat:DataService",
 
-    "dcat": "http://www.w3.org/ns/dcat#",
-    "dct": "http://purl.org/dc/terms/",
-    "foaf": "http://xmlns.com/foaf/0.1/",
-    "vcard": "http://www.w3.org/2006/vcard/ns#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-
     "title": "dct:title",
     "description": "dct:description",
     "identifier": "dct:identifier",
-    "publisher": "dct:publisher",
-    "homepage": "foaf:homepage",
     "keyword": "dcat:keyword",
     "theme": "dcat:theme",
     "landingPage": "dcat:landingPage",
+    "homepage": "foaf:homepage",
+    "publisher": "dct:publisher",
+    "creator": "dct:creator",
+    "issued": "dct:issued",
+    "modified": "dct:modified",
     "license": "dct:license",
+    "accessRights": "dct:accessRights",
+    "accrualPeriodicity": "dct:accrualPeriodicity",
     "spatial": "dct:spatial",
     "temporal": "dct:temporal",
-    "modified": "dct:modified",
-    "accrualPeriodicity": "dct:accrualPeriodicity",
+    "contactPoint": "dcat:contactPoint",
+    "conformsTo": "dct:conformsTo",
+    "language": "dct:language",
 
     "hasDataset": "dcat:dataset",
     "distribution": "dcat:distribution",
+    "servesDataset": "dcat:servesDataset",
     "accessService": "dcat:accessService",
-
-    "endpointURL": "dcat:endpointURL",
-    "endpointDescription": "dcat:endpointDescription",
 
     "accessURL": "dcat:accessURL",
     "downloadURL": "dcat:downloadURL",
     "mediaType": "dcat:mediaType",
-    "format": "dct:format"
+    "format": "dct:format",
+    "byteSize": "dcat:byteSize",
+    "compressFormat": "dcat:compressFormat",
+    "packageFormat": "dcat:packageFormat",
+
+    "endpointURL": "dcat:endpointURL",
+    "endpointDescription": "dcat:endpointDescription",
+
+    "datasetType": "adms:status",
+    "spatialResolutionInMeters": "dcat:spatialResolutionInMeters",
+    "temporalResolution": "dcat:temporalResolution",
+
+    "themeTaxonomy": "dcat:themeTaxonomy",
+
+    "fabrico": "https://data.fabrico.stellio.io/ontology/",
+    "domain": "fabrico:domain",
+    "ngsiLdType": "fabrico:ngsiLdType",
+    "entityCount": "fabrico:entityCount",
+    "sampleQuery": "fabrico:sampleQuery",
+    "isActive": "fabrico:isActive"
   }
 }
