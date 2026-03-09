@@ -1,5 +1,7 @@
 {
   "@context": {
+    "id": "@id",
+    "type": "@type",
     "fiware": "https://uri.fiware.org/ns/dataModels#",
     "schema": "https://schema.org/",
 
