@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "fiware": "https://uri.fiware.org/ns/dataModels#",
+    "schema": "https://schema.org/",
+
+    "DcatCatalog": "dcat:Catalog",
+    "DcatDataset": "dcat:Dataset",
+    "DcatDistribution": "dcat:Distribution",
+    "DcatDataService": "dcat:DataService",
+
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dct": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "title": "dct:title",
+    "description": "dct:description",
+    "identifier": "dct:identifier",
+    "publisher": "dct:publisher",
+    "homepage": "foaf:homepage",
+    "keyword": "dcat:keyword",
+    "theme": "dcat:theme",
+    "landingPage": "dcat:landingPage",
+    "license": "dct:license",
+    "spatial": "dct:spatial",
+    "temporal": "dct:temporal",
+    "modified": "dct:modified",
+    "accrualPeriodicity": "dct:accrualPeriodicity",
+
+    "hasDataset": "dcat:dataset",
+    "distribution": "dcat:distribution",
+    "accessService": "dcat:accessService",
+
+    "endpointURL": "dcat:endpointURL",
+    "endpointDescription": "dcat:endpointDescription",
+
+    "accessURL": "dcat:accessURL",
+    "downloadURL": "dcat:downloadURL",
+    "mediaType": "dcat:mediaType",
+    "format": "dct:format"
+  }
+}
