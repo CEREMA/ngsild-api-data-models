@@ -11,6 +11,7 @@
 
     "Blocometrie": "ecmb:Blocometrie",
     "ChantierEnrochement": "ecmb:ChantierEnrochement",
+    "InstallationICPE": "ecmb:ICPEInstallation",
 
     "location": "https://uri.etsi.org/ngsi-ld/location",
 
