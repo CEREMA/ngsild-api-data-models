@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "fiware": "https://uri.fiware.org/ns/dataModels#",
+    "schema": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "geo": "https://uri.etsi.org/ngsi-ld/geoProperty#",
+    "eclext": "https://example.org/cnig/eclext#",
+
+    "PointLumineux": "eclext:PointLumineux",
+    "ProfilNocturne": "eclext:ProfilNocturne",
+    "PlageVariation": "eclext:PlageVariation",
+    "ProfilContientPlage": "eclext:ProfilContientPlage",
+
+    "UsageValeur": "eclext:UsageValeur",
+    "TypeSourceValeur": "eclext:TypeSourceValeur",
+    "StructureLuminaireValeur": "eclext:StructureLuminaireValeur",
+    "SupportLuminaireValeur": "eclext:SupportLuminaireValeur",
+    "EclairageAdaptatifValeur": "eclext:EclairageAdaptatifValeur",
+    "GrandeurVariationValeur": "eclext:GrandeurVariationValeur",
+    "FormatVariationValeur": "eclext:FormatVariationValeur",
+    "ConditionOfFacilityValue": "eclext:ConditionOfFacilityValue",
+
+    "location": "https://uri.etsi.org/ngsi-ld/location",
+
+    "name": "https://schema.org/name",
+    "description": "https://schema.org/description",
+
+    "geometrie": "eclext:geometrie",
+    "aProfilNocturne": "eclext:aProfilNocturne",
+    "contientPlage": "eclext:contientPlage",
+    "estContenueDansProfil": "eclext:estContenueDansProfil",
+    "associeProfil": "eclext:associeProfil",
+    "associePlage": "eclext:associePlage",
+
+    "usage": "eclext:usage",
+    "typeSource": "eclext:typeSource",
+    "structure": "eclext:structure",
+    "support": "eclext:support",
+    "statut": "eclext:statut",
+    "eclairageAdaptatif": "eclext:eclairageAdaptatif",
+    "grandeurVariation": "eclext:grandeurVariation",
+    "formatVariation": "eclext:formatVariation",
+
+    "eclairagePublic": "eclext:eclairagePublic",
+    "fabricant": "eclext:fabricant",
+    "modele": "eclext:modele",
+    "photometrie": "eclext:photometrie",
+    "hauteurFeu": "eclext:hauteurFeu",
+    "temperatureCouleur": "eclext:temperatureCouleur",
+    "puissance": "eclext:puissance",
+    "fluxSource": "eclext:fluxSource",
+    "fluxLuminaire": "eclext:fluxLuminaire",
+    "cie3": "eclext:cie3",
+    "ulrNominal": "eclext:ulrNominal",
+    "ulrInstalle": "eclext:ulrInstalle",
+    "inclinaisonMax": "eclext:inclinaisonMax",
+    "inclinaisonInstallee": "eclext:inclinaisonInstallee",
+    "valideDe": "eclext:valideDe",
+    "valideJusque": "eclext:valideJusque",
+    "datePremiereInstallation": "eclext:datePremiereInstallation",
+    "extinctionNuit": "eclext:extinctionNuit",
+    "estAdaptatif": "eclext:estAdaptatif",
+
+    "nomProfil": "eclext:nomProfil",
+    "allumageSoir": "eclext:allumageSoir",
+    "extinctionMatin": "eclext:extinctionMatin",
+
+    "nomPlage": "eclext:nomPlage",
+    "heureDebut": "eclext:heureDebut",
+    "heureFin": "eclext:heureFin",
+    "valeur": "eclext:valeur",
+
+    "nomProfilAssoc": "eclext:nomProfilAssoc",
+    "nomPlageAssoc": "eclext:nomPlageAssoc"
+  }
+}
