@@ -32,7 +32,7 @@
     "scope": "ngsi-ld:scope",
 
     "linkDir": "traf:linkDir",
-    "epoch15min": "traf:epoch15min",
+    "epoch15min": "traf:epoch15Min",
     "length": "traf:length",
     "freeFlow": "traf:freeFlow",
     "spdLimit": "traf:spdLimit",
