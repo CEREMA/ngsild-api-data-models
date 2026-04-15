@@ -32,7 +32,7 @@
     "scope": "ngsi-ld:scope",
 
     "linkDir": "traf:linkDir",
-    "epoch15min": "traf:epoch15Min",
+    "epoch15Min": "traf:epoch15Min",
     "length": "traf:length",
     "freeFlow": "traf:freeFlow",
     "spdLimit": "traf:spdLimit",
@@ -40,9 +40,10 @@
     "mean": "traf:mean",
     "stdDev": "traf:stdDev",
     "stddev": "traf:stdDev",
-    "min": "traf:min",
-    "max": "traf:max",
+    "minVitesse": "traf:minVitesse",
+    "maxVitesse": "traf:maxVitesse",
     "confidence": "traf:confidence",
+    "poids":"traf:poids",
 
     "pct10": "traf:pct10",
     "pct20": "traf:pct20",
