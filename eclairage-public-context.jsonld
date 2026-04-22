@@ -1,22 +1,22 @@
 {
-  "@context": {
-    "schema": "https://schema.org/",
-    "geo": "https://uri.etsi.org/ngsi-ld/geoProperty#",
-    "dcterms": "http://purl.org/dc/terms/",
-    "ecl": "https://semantics.cerema.fr/ontologies/eclairage#",
+  "@context": {
+    "schema": "https://schema.org/",
+    "geo": "https://uri.etsi.org/ngsi-ld/geoProperty#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "ecl": "https://semantics.cerema.fr/ontologies/eclairage#",
 
-    "eclairage": "ecl:Eclairage",
-    "location": "geo:Point",
+    "eclairage": "ecl:Eclairage",
+    "location": "geo:Point",
 
-    "photometrie": "ecl:photometrie",
-    "structure": "ecl:structure",
-    "support": "ecl:support",
-    "fabricant": "schema:manufacturer",
-    "modele": "schema:model",
-    "hauteurFeu": "ecl:hauteurFeu",
-    "puissance": "ecl:puissance",
-    "typeSource": "ecl:typeSource",
-    "objective": "ecl:objective",
-    "temperatureCouleur": "ecl:temperatureCouleur",
-  }
+    "photometrie": "ecl:photometrie",
+    "structure": "ecl:structure",
+    "support": "ecl:support",
+    "fabricant": "schema:manufacturer",
+    "modele": "schema:model",
+    "hauteurFeu": "ecl:hauteurFeu",
+    "puissance": "ecl:puissance",
+    "typeSource": "ecl:typeSource",
+    "objective": "ecl:objective",
+    "temperatureCouleur": "ecl:temperatureCouleur"
+  }
 }
