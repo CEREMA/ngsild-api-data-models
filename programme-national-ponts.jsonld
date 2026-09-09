@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "topo": "http://data.ign.fr/def/topo#",
+    "insee": "http://rdf.insee.fr/def/geo#",
+    "oa": "https://data.cerema.fr/ontology/ouvrage-art#",
+
+    "OuvrageArt": "oa:OuvrageArt",
+    "Construction": "topo:Construction",
+
+    "natureOuvrage": "topo:typeDeConstruction",
+
+    "Commune": "insee:Commune",
+
+    "voieRattachement": "oa:voieRattachement",
+    "Route": "topo:Route",
+    "Voie": "topo:Voie",
+    "VoieFerree": "topo:VoieFerree",
+    "CoursDEau": "topo:CoursDEau",
+
+    "franchitOuProtege": "oa:franchitOuProtege"
+  }
+}
