@@ -7,7 +7,7 @@
     "OuvrageArt": "oa:OuvrageArt",
     "Construction": "topo:Construction",
 
-    "natureOuvrage": "topo:typeDeConstruction",
+    "natureOuvrage": "oa:natureOuvrage",
 
     "Commune": "insee:Commune",
 
