@@ -1,22 +1,56 @@
 {
   "@context": {
-    "topo": "http://data.ign.fr/def/topo#",
-    "insee": "http://rdf.insee.fr/def/geo#",
     "oa": "https://data.cerema.fr/ontology/ouvrage-art#",
+    "igeo": "http://rdf.insee.fr/def/geo#",
+    "topo": "http://data.ign.fr/def/topo#",
 
     "OuvrageArt": "oa:OuvrageArt",
-    "Construction": "topo:Construction",
-
     "natureOuvrage": "oa:natureOuvrage",
+    "nomUsuel": "oa:nomUsuel",
 
-    "Commune": "insee:Commune",
+    "Commune": "igeo:Commune",
+    "estDansCommune": "oa:estDansCommune",
+    "nom": "igeo:nom",
+    "codeCommune": "igeo:codeCommune",
 
     "voieRattachement": "oa:voieRattachement",
     "Route": "topo:Route",
-    "Voie": "topo:Voie",
     "VoieFerree": "topo:VoieFerree",
-    "CoursDEau": "topo:CoursDEau",
 
-    "franchitOuProtege": "oa:franchitOuProtege"
+    "franchitOuProtege": "oa:franchitOuProtege",
+
+    "gestionnaire": "oa:gestionnaire",
+    "conventionGestion": "oa:conventionGestion",
+    "archivesExistantes": "oa:archivesExistantes",
+    "periodeConstruction": "oa:periodeConstruction",
+
+    "dateVisiteReconnaissance": "oa:dateVisiteReconnaissance",
+    "ouvrageVisitable": "oa:ouvrageVisitable",
+    "faitPartieGroupeOuvrages": "oa:faitPartieGroupeOuvrages",
+
+    "ouvrageSousLoiDidier": "oa:ouvrageSousLoiDidier",
+    "ouvrageSurPlusieursCommunes": "oa:ouvrageSurPlusieursCommunes",
+    "identifiantGroupeSource": "oa:identifiantGroupeSource",
+
+    "longueur": "oa:longueur",
+    "largeurVoieCirculee": "oa:largeurVoieCirculee",
+    "tirantAirMaximal": "oa:tirantAirMaximal",
+    "poidsMaximalAutorise": "oa:poidsMaximalAutorise",
+    "ouverturePrincipale": "oa:ouverturePrincipale",
+
+    "typeTablier": "oa:typeTablier",
+    "materiauVoute": "oa:materiauVoute",
+
+    "buseMultiple": "oa:buseMultiple",
+    "nombreBuses": "oa:nombreBuses",
+    "materiauBuse": "oa:materiauBuse",
+
+    "cadresIndependantsMultiples": "oa:cadresIndependantsMultiples",
+    "nombreCadres": "oa:nombreCadres",
+    "materiauCadre": "oa:materiauCadre",
+
+    "typeMur": "oa:typeMur",
+    "materiauPrincipalMur": "oa:materiauPrincipalMur",
+    "materiauSecondaireMur": "oa:materiauSecondaireMur"
   }
 }
