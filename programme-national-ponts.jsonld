@@ -13,6 +13,12 @@
     "nom": "igeo:nom",
     "codeCommune": "igeo:codeCommune",
 
+    "Departement": "igeo:Departement",
+    "estDansDepartement": "oa:estDansDepartement",
+
+    "Region": "igeo:Region",
+    "estDansRegion": "oa:estDansRegion",
+
     "voieRattachement": "oa:voieRattachement",
     "Route": "topo:Route",
     "VoieFerree": "topo:VoieFerree",
