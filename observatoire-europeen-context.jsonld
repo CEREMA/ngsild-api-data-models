@@ -1,0 +1,9 @@
+{
+  "@context": {
+    "Country": "http://publications.europa.eu/ontology/euvoc#Country",
+    "name": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "iso3Code": "http://data.europa.eu/esco/model#isoCountryCodeA3",
+    "capital": "http://www.wikidata.org/prop/direct/P36",
+    "source": "http://purl.org/dc/terms/source"
+  }
+}
