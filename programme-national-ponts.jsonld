@@ -38,7 +38,7 @@
     "ouvrageSurPlusieursCommunes": "oa:ouvrageSurPlusieursCommunes",
     "GroupeOuvrages": "oa:GroupeOuvrages",
     "identifiantGroupeSource": "oa:identifiantGroupeSource",
-    "faitPartieDe": "oa:faitPartieDe"
+    "faitPartieDe": "oa:faitPartieDe",
 
     "longueur": "oa:longueur",
     "largeurVoieCirculee": "oa:largeurVoieCirculee",
