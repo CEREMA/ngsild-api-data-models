@@ -4,6 +4,10 @@
     "name": "http://www.w3.org/2004/02/skos/core#prefLabel",
     "iso3Code": "http://data.europa.eu/esco/model#isoCountryCodeA3",
     "capital": "http://www.wikidata.org/prop/direct/P36",
+    "NUTSRegion": "http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#NUTSRegion",
+    "nutsCode": "http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#code",
+    "nutsLevel": "http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#level",
+    "containedInCountry": "https://schema.org/containedInPlace",
     "source": "http://purl.org/dc/terms/source"
   }
 }
