@@ -5,14 +5,25 @@
     "latinName": "http://www.w3.org/2004/02/skos/core#altLabel",
     "iso3Code": "http://data.europa.eu/esco/model#isoCountryCodeA3",
     "capital": "http://www.wikidata.org/prop/direct/P36",
+
     "NUTSRegion": "http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#NUTSRegion",
     "nutsCode": "http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#code",
     "nutsLevel": "http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#level",
+
     "containedInCountry": "https://schema.org/containedInPlace",
     "hasParentRegion": "http://www.w3.org/2004/02/skos/core#broader",
+
     "LAURegion": "http://data.businessgraph.io/ontology#LAURegion",
     "lauCode": "http://rdfdata.eionet.europa.eu/ramon/ontology/code",
     "euLauCode": "https://cerema.github.io/ngsild-api-data-models/vocabulary/euLauCode",
-    "source": "http://purl.org/dc/terms/source"
+
+    "source": "http://purl.org/dc/terms/source",
+
+    "City": "https://schema.org/City",
+    "codeGISCO": "http://www.w3.org/2004/02/skos/core#notation",
+    "hasCountry": "https://schema.org/containedInPlace",
+
+    "hasFUA": "https://cerema.github.io/ngsild-api-data-models/vocabulary/hasFUA",
+    "isCapital": "https://cerema.github.io/ngsild-api-data-models/vocabulary/isCapital"
   }
 }
