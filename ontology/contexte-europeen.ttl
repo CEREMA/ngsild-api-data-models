@@ -9,8 +9,8 @@
 
 <https://semantics.cerema.fr/ontology/contexte-europeen>
     a owl:Ontology ;
-    dcterms:title "Ontologie du contexte européen du Cerema"@fr ;
-    dcterms:title "Cerema European Context Ontology"@en ;
+    dcterms:title "Ontologie du contexte européen"@fr ;
+    dcterms:title "European Context Ontology"@en ;
     dcterms:description "Ontologie canonique pour la description sémantique des entités territoriales européennes utilisées notamment par l'Observatoire des jumeaux numériques territoriaux."@fr ;
     dcterms:creator "Cerema" ;
     owl:versionInfo "0.1.0" .
