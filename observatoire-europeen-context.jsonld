@@ -24,5 +24,19 @@
 
     "FunctionalUrbanArea": "https://semantics.cerema.fr/ontology/contexte-europeen#FunctionalUrbanArea",
     "hasFUA": "https://semantics.cerema.fr/ontology/contexte-europeen#hasFUA"
+
+    "LocalDigitalTwin": "https://semantics.cerema.fr/ontology/contexte-europeen#LocalDigitalTwin",
+    "numeroOrdre": "https://semantics.cerema.fr/ontology/contexte-europeen#numeroOrdre",
+    "platformType": "https://semantics.cerema.fr/ontology/contexte-europeen#platformType",
+    "developmentStage": "https://semantics.cerema.fr/ontology/contexte-europeen#developmentStage",
+    "ldtName": "https://semantics.cerema.fr/ontology/contexte-europeen#ldtName",
+    "geographicScope": "https://semantics.cerema.fr/ontology/contexte-europeen#geographicScope",
+    "organizationName": "https://semantics.cerema.fr/ontology/contexte-europeen#organizationName",
+    "duetMaturity": "https://semantics.cerema.fr/ontology/contexte-europeen#duetMaturity",
+    "analyticalCapability": "https://semantics.cerema.fr/ontology/contexte-europeen#analyticalCapability",
+    "useCaseDomainClass": "https://semantics.cerema.fr/ontology/contexte-europeen#useCaseDomainClass",
+    "userType": "https://semantics.cerema.fr/ontology/contexte-europeen#userType",
+    "referenceURL": "https://schema.org/url",
+    "fundingSource": "https://semantics.cerema.fr/ontology/contexte-europeen#fundingSource"
   }
 }
