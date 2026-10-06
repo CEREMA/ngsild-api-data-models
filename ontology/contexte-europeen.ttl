@@ -1,0 +1,115 @@
+@prefix ce: <https://semantics.cerema.fr/ontology/contexte-europeen#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://semantics.cerema.fr/ontology/contexte-europeen>
+    a owl:Ontology ;
+    dcterms:title "Ontologie du contexte européen du Cerema"@fr ;
+    dcterms:title "Cerema European Context Ontology"@en ;
+    dcterms:description "Ontologie canonique pour la description sémantique des entités territoriales européennes utilisées notamment par l'Observatoire des jumeaux numériques territoriaux."@fr ;
+    dcterms:creator "Cerema" ;
+    owl:versionInfo "0.1.0" .
+
+#################################################################
+# Classes
+#################################################################
+
+ce:Country
+    a owl:Class ;
+    rdfs:label "Pays"@fr ;
+    rdfs:label "Country"@en ;
+    rdfs:comment "Pays utilisé comme entité territoriale de référence dans le contexte européen."@fr .
+
+ce:NUTSRegion
+    a owl:Class ;
+    rdfs:label "Région NUTS"@fr ;
+    rdfs:label "NUTS region"@en ;
+    rdfs:comment "Unité territoriale appartenant à la nomenclature NUTS."@fr .
+
+ce:LocalAdministrativeUnit
+    a owl:Class ;
+    rdfs:label "Unité administrative locale"@fr ;
+    rdfs:label "Local administrative unit"@en ;
+    rdfs:comment "Unité administrative locale (LAU) au sens du cadre statistique européen."@fr .
+
+ce:FunctionalUrbanArea
+    a owl:Class ;
+    rdfs:label "Aire urbaine fonctionnelle"@fr ;
+    rdfs:label "Functional urban area"@en ;
+    rdfs:comment "Aire urbaine fonctionnelle associée à une ville selon le cadre européen/GISCO."@fr .
+
+#################################################################
+# Datatype properties
+#################################################################
+
+ce:iso3Code
+    a owl:DatatypeProperty ;
+    rdfs:label "Code ISO 3166-1 alpha-3"@fr ;
+    rdfs:label "ISO 3166-1 alpha-3 code"@en ;
+    rdfs:domain ce:Country ;
+    rdfs:range xsd:string .
+
+ce:nutsCode
+    a owl:DatatypeProperty ;
+    rdfs:label "Code NUTS"@fr ;
+    rdfs:label "NUTS code"@en ;
+    rdfs:domain ce:NUTSRegion ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf skos:notation .
+
+ce:nutsLevel
+    a owl:DatatypeProperty ;
+    rdfs:label "Niveau NUTS"@fr ;
+    rdfs:label "NUTS level"@en ;
+    rdfs:domain ce:NUTSRegion ;
+    rdfs:range xsd:integer .
+
+ce:lauCode
+    a owl:DatatypeProperty ;
+    rdfs:label "Code LAU"@fr ;
+    rdfs:label "LAU code"@en ;
+    rdfs:domain ce:LocalAdministrativeUnit ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf skos:notation .
+
+ce:codeGISCO
+    a owl:DatatypeProperty ;
+    rdfs:label "Code GISCO"@fr ;
+    rdfs:label "GISCO code"@en ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf skos:notation .
+
+ce:latinName
+    a owl:DatatypeProperty ;
+    rdfs:label "Nom latin"@fr ;
+    rdfs:label "Latin name"@en ;
+    rdfs:subPropertyOf skos:altLabel .
+
+#################################################################
+# Object properties
+#################################################################
+
+ce:hasCapital
+    a owl:ObjectProperty ;
+    rdfs:label "a pour capitale"@fr ;
+    rdfs:label "has capital"@en ;
+    rdfs:domain ce:Country ;
+    rdfs:range schema:City .
+
+ce:hasParentRegion
+    a owl:ObjectProperty ;
+    rdfs:label "a pour région parente"@fr ;
+    rdfs:label "has parent region"@en ;
+    rdfs:comment "Relation entre une entité territoriale et une région territoriale parente. Cette relation est plus spécifique qu'une simple relation de contenance spatiale."@fr ;
+    rdfs:subPropertyOf schema:containedInPlace .
+
+ce:hasFUA
+    a owl:ObjectProperty ;
+    rdfs:label "a pour aire urbaine fonctionnelle"@fr ;
+    rdfs:label "has functional urban area"@en ;
+    rdfs:range ce:FunctionalUrbanArea .
