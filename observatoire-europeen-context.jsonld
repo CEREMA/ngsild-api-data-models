@@ -1,29 +1,28 @@
 {
   "@context": {
-    "Country": "http://publications.europa.eu/ontology/euvoc#Country",
-    "name": "http://www.w3.org/2004/02/skos/core#prefLabel",
-    "latinName": "http://www.w3.org/2004/02/skos/core#altLabel",
-    "iso3Code": "http://data.europa.eu/esco/model#isoCountryCodeA3",
-    "capital": "http://www.wikidata.org/prop/direct/P36",
+    "Country": "https://semantics.cerema.fr/ontology/contexte-europeen#Country",
 
-    "NUTSRegion": "http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#NUTSRegion",
-    "nutsCode": "http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#code",
-    "nutsLevel": "http://ec.europa.eu/eurostat/ramon/ontologies/geographic.rdf#level",
+    "name": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "latinName": "https://semantics.cerema.fr/ontology/contexte-europeen#latinName",
+    "iso3Code": "https://semantics.cerema.fr/ontology/contexte-europeen#iso3Code",
+    "hasCapital": "https://semantics.cerema.fr/ontology/contexte-europeen#hasCapital",
+
+    "NUTSRegion": "https://semantics.cerema.fr/ontology/contexte-europeen#NUTSRegion",
+    "nutsCode": "https://semantics.cerema.fr/ontology/contexte-europeen#nutsCode",
+    "nutsLevel": "https://semantics.cerema.fr/ontology/contexte-europeen#nutsLevel",
 
     "containedInCountry": "https://schema.org/containedInPlace",
-    "hasParentRegion": "http://www.w3.org/2004/02/skos/core#broader",
+    "hasParentRegion": "https://semantics.cerema.fr/ontology/contexte-europeen#hasParentRegion",
 
-    "LAURegion": "http://data.businessgraph.io/ontology#LAURegion",
-    "lauCode": "http://rdfdata.eionet.europa.eu/ramon/ontology/code",
-    "euLauCode": "https://cerema.github.io/ngsild-api-data-models/vocabulary/euLauCode",
+    "LocalAdministrativeUnit": "https://semantics.cerema.fr/ontology/contexte-europeen#LocalAdministrativeUnit",
+    "lauCode": "https://semantics.cerema.fr/ontology/contexte-europeen#lauCode",
 
     "source": "http://purl.org/dc/terms/source",
 
     "City": "https://schema.org/City",
-    "codeGISCO": "http://www.w3.org/2004/02/skos/core#notation",
-    "hasCountry": "https://schema.org/containedInPlace",
+    "codeGISCO": "https://semantics.cerema.fr/ontology/contexte-europeen#codeGISCO",
 
-    "hasFUA": "https://cerema.github.io/ngsild-api-data-models/vocabulary/hasFUA",
-    "isCapital": "https://cerema.github.io/ngsild-api-data-models/vocabulary/isCapital"
+    "FunctionalUrbanArea": "https://semantics.cerema.fr/ontology/contexte-europeen#FunctionalUrbanArea",
+    "hasFUA": "https://semantics.cerema.fr/ontology/contexte-europeen#hasFUA"
   }
 }
