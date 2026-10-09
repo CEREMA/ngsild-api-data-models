@@ -17,6 +17,7 @@
     "LocalAdministrativeUnit": "https://semantics.cerema.fr/ontology/contexte-europeen#LocalAdministrativeUnit",
     "lauCode": "https://semantics.cerema.fr/ontology/contexte-europeen#lauCode",
     "locatedInLocalAdministrativeUnit": "https://semantics.cerema.fr/ontology/contexte-europeen#locatedInLocalAdministrativeUnit",
+    "geographicExtent": "https://semantics.cerema.fr/ontology/contexte-europeen#geographicExtent",
 
     "source": "http://purl.org/dc/terms/source",
 
