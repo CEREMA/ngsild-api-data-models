@@ -24,7 +24,7 @@
     "codeGISCO": "https://semantics.cerema.fr/ontology/contexte-europeen#codeGISCO",
 
     "FunctionalUrbanArea": "https://semantics.cerema.fr/ontology/contexte-europeen#FunctionalUrbanArea",
-    "hasFUA": "https://semantics.cerema.fr/ontology/contexte-europeen#hasFUA"
+    "hasFUA": "https://semantics.cerema.fr/ontology/contexte-europeen#hasFUA",
 
     "LocalDigitalTwin": "https://semantics.cerema.fr/ontology/contexte-europeen#LocalDigitalTwin",
     "numeroOrdre": "https://semantics.cerema.fr/ontology/contexte-europeen#numeroOrdre",
