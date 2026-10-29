@@ -12,6 +12,7 @@
     "estDansCommune": "oa:estDansCommune",
     "nom": "igeo:nom",
     "codeCommune": "igeo:codeCommune",
+    "communesLimitrophes": "oa:communesLimitrophes",
 
     "Departement": "igeo:Departement",
     "estDansDepartement": "oa:estDansDepartement",
@@ -26,13 +27,11 @@
     "franchitOuProtege": "oa:franchitOuProtege",
 
     "gestionnaire": "oa:gestionnaire",
-    "conventionGestion": "oa:conventionGestion",
     "archivesExistantes": "oa:archivesExistantes",
     "periodeConstruction": "oa:periodeConstruction",
 
     "dateVisiteReconnaissance": "oa:dateVisiteReconnaissance",
     "ouvrageVisitable": "oa:ouvrageVisitable",
-    "faitPartieGroupeOuvrages": "oa:faitPartieGroupeOuvrages",
 
     "ouvrageSousLoiDidier": "oa:ouvrageSousLoiDidier",
     "ouvrageSurPlusieursCommunes": "oa:ouvrageSurPlusieursCommunes",
@@ -44,10 +43,21 @@
     "largeurVoieCirculee": "oa:largeurVoieCirculee",
     "tirantAirMaximal": "oa:tirantAirMaximal",
     "poidsMaximalAutorise": "oa:poidsMaximalAutorise",
+    "reseauxConcessionnairesVisibles": "oa:reseauxConcessionnairesVisibles",
+
+    "dispositifsRetenue": "oa:dispositifsRetenue",
+    "obstacleFranchiOuProtege": "oa:obstacleFranchiOuProtege",
+    
     "ouverturePrincipale": "oa:ouverturePrincipale",
 
     "typeTablier": "oa:typeTablier",
-    "materiauVoute": "oa:materiauVoute",
+    "materiauConstitutifVoute": "oa:materiauConstitutifVoute",
+    "nombreTravees": "oa:nombreTravees",
+    "appuisSiteAquatique": "oa:appuisSiteAquatique",
+    "remblaiCouverture": "oa:remblaiCouverture",
+    "elargissement": "oa:elargissement",
+    "mursContigus": "oa:mursContigus",
+    "renforcementsAnterieurs": "oa:renforcementsAnterieurs",
 
     "buseMultiple": "oa:buseMultiple",
     "nombreBuses": "oa:nombreBuses",
