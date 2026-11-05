@@ -17,6 +17,7 @@
     "LocalAdministrativeUnit": "https://semantics.cerema.fr/ontology/contexte-europeen#LocalAdministrativeUnit",
     "lauCode": "https://semantics.cerema.fr/ontology/contexte-europeen#lauCode",
     "locatedInLocalAdministrativeUnit": "https://semantics.cerema.fr/ontology/contexte-europeen#locatedInLocalAdministrativeUnit",
+    "locatedInNUTS": "https://semantics.cerema.fr/ontology/contexte-europeen#locatedInNUTS",
     "coversLocalAdministrativeUnit": "https://semantics.cerema.fr/ontology/contexte-europeen#coversLocalAdministrativeUnit",
     "geographicExtent": "https://semantics.cerema.fr/ontology/contexte-europeen#geographicExtent",
 
