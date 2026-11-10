@@ -41,6 +41,11 @@
     "useCaseDomainClass": "https://semantics.cerema.fr/ontology/contexte-europeen#useCaseDomainClass",
     "userType": "https://semantics.cerema.fr/ontology/contexte-europeen#userType",
     "referenceURL": "https://schema.org/url",
-    "fundingSource": "https://semantics.cerema.fr/ontology/contexte-europeen#fundingSource"
+    "fundingSource": "https://semantics.cerema.fr/ontology/contexte-europeen#fundingSource",
+    "countryName": "https://semantics.cerema.fr/ontology/contexte-europeen#countryName",
+    "locationName": "https://semantics.cerema.fr/ontology/contexte-europeen#locationName",
+    "fundingProgramme": "https://semantics.cerema.fr/ontology/contexte-europeen#fundingProgramme",
+    "latitude": "https://schema.org/latitude",
+    "longitude": "https://schema.org/longitude"
   }
 }
