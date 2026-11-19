@@ -1,0 +1,26 @@
+{
+    "@context":{
+        "mob":"https://semantics.cerema.fr/ontologies/mobilites/",
+
+        "VehicleStock":"mob:VehicleStock",
+            "estdansVille":"https://semantics.cerema.fr/ontologies/urbanisme#estDansVille",
+            "vehicleCount":"mob:vehicleCount",
+            "vehicleGroup":"mob:vehicleGroup",
+            "fuelType":"mob:fuelType",
+            "totalVehicleCount":"mob:totalVehicleCount",
+            "vehicleCountByFuelType":"mob:vehicleTypeByType",
+            "vehicleCountByGroup":"mob:vehicleTypeByGroup",
+            "electrifiedShare":"mob:electrifiedShare",
+            "source":"http://purl.org/dc/terms/source",
+        "RoadSegmentAADT":"mob:RoadSegmentAADT",
+            "roadIdBdTopo":"mob:roadIdBdTopo",
+            "aadt":"mob:aadt",
+            "spdLimit": "https://semantics.cerema.fr/ontologies/trafic/spdLimit",
+            "aadtSource":"mob:aadtSource",
+            "composedOf":"mob:composedOf",
+            "pcentPl":"mob:pcentPl",
+            "geometry": "https://uri.etsi.org/ngsi-ld/location",
+        "Ville": "https://semantics.cerema.fr/ontologies/administratif#Ville",
+            "codeInsee": "https://semantics.cerema.fr/ontologies/administratif#codeInsee"
+    }
+}
